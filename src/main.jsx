@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Game from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import Game from './App.jsx'
+import Square from "./App";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Game />
-  </React.StrictMode>,
-)
+    <Square />
+  </React.StrictMode>
+);
